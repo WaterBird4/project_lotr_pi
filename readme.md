@@ -1,7 +1,3 @@
-# project_lotr_pi
-customize a raspberry pi with a lotr theme
-
-
 # Hello!
 
 I hope you enjoy this little pi! :D I had fun making it! 
@@ -126,9 +122,10 @@ I tried to make a cute little musical experience but it's not working. there are
 shire_clock.py creates a little app that has a clock with mealtimes in the shire. 
 if you type 'mealtime' in the console it will activate it. To close it click the x on the window that pops up.
 
+#### pygame
+i wanted to make a cute game or graphic that could play but it's still in development. You can see a little eyeball tower with flames if you run the eyeball_tower.py script in the scripts directory. The sample_game.py files is just a smaple pygame where you use the asdw keys to move a red circle around the screen. I left it cause it's kind of fun. But it serves no purpose beyond that.
+
 #### Other Aliases
-
-
 | Alias | Information |
 |-------|-------------|
 |fellowship|Activates htop which gives an overview of the computer.  f10 or ctrl + c will close htop|
@@ -137,3 +134,6 @@ if you type 'mealtime' in the console it will activate it. To close it click the
 |mordor|Moves to your root directory ``` cd /```|
 |ahime-|Changes the wallpaper - runs random_wallpaper.sh|
 |mealtime|Activates the mealtimes in the shire clock - runs the shire_clock.py script|
+
+
+
